@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="es-ES" class="theme-">
+<head data-suburl="">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>bjquanjiang/pinganxiaoyuan -  pinganxiaoyuan - jqgit </title>
+	<link rel="manifest" href="/manifest.json" crossorigin="use-credentials">
+	<meta name="theme-color" content="#6cc644">
+	<meta name="author" content="bjquanjiang" />
+	<meta name="description" content="pinganxiaoyuan - 平安校园" />
+	<meta name="keywords" content="go,git,self-hosted,gitea">
+	<meta name="referrer" content="no-referrer" />
+	<meta name="_csrf" content="VvwZ64zx-E00z9BfJazb3eUD2UY6MTc1NDg1NzE0OTcwMTA1OTUwMA" />
+	
+	
+	
+
+	<script>
+	/*
+	@licstart  The following is the entire license notice for the
+        JavaScript code in this page.
+
+	Copyright (c) 2016 The Gitea Authors
+	Copyright (c) 2015 The Gogs Authors
+
+	Permission is hereby granted, free of charge, to any person obtaining a copy
+	of this software and associated documentation files (the "Software"), to deal
+	in the Software without restriction, including without limitation the rights
+	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+	copies of the Software, and to permit persons to whom the Software is
+	furnished to do so, subject to the following conditions:
+
+	The above copyright notice and this permission notice shall be included in
+	all copies or substantial portions of the Software.
+
+	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+	THE SOFTWARE.
+	---
+	Licensing information for additional javascript libraries can be found at:
+	  {{StaticUrlPrefix}}/vendor/librejs.html
+
+	@licend  The above is the entire license notice
+        for the JavaScript code in this page.
+	*/
+	</script>
+	<script>
+		window.config = {
+			AppVer: '1.12.3',
+			AppSubUrl: '',
+			StaticUrlPrefix: '',
+			UseServiceWorker:  true ,
+			csrf: 'VvwZ64zx-E00z9BfJazb3eUD2UY6MTc1NDg1NzE0OTcwMTA1OTUwMA',
+			HighlightJS: true,
+			Minicolors: false,
+			SimpleMDE: false,
+			Tribute: false,
+			U2F: false,
+			Heatmap: false,
+			heatmapUser: null,
+			NotificationSettings: {
+				MinTimeout:  10000 ,
+				TimeoutStep:   10000 ,
+				MaxTimeout:  60000 ,
+				EventSourceUpdateTime:  10000 ,
+			},
+      
+		};
+	</script>
+	<link rel="shortcut icon" href="/img/favicon.png">
+	<link rel="mask-icon" href="/img/gitea-safari.svg" color="#609926">
+	<link rel="fluid-icon" href="/img/gitea-lg.png" title="jqgit">
+	<link rel="stylesheet" href="/vendor/assets/font-awesome/css/font-awesome.min.css">
+
+
+
+	<link rel="stylesheet" href="/fomantic/semantic.min.css?v=f019d6977306263578f155dd820806e8">
+	<link rel="stylesheet" href="/css/index.css?v=f019d6977306263578f155dd820806e8">
+	<noscript>
+		<style>
+			.dropdown:hover > .menu { display: block; }
+			.ui.secondary.menu .dropdown.item > .menu { margin-top: 0; }
+		</style>
+	</noscript>
+
+	<style class="list-search-style"></style>
+
+	
+		<meta property="og:title" content="pinganxiaoyuan" />
+		<meta property="og:url" content="http://8.141.155.183:3000/bjquanjiang/pinganxiaoyuan" />
+		
+			<meta property="og:description" content="平安校园" />
+		
+	
+	<meta property="og:type" content="object" />
+	<meta property="og:image" content="http://8.141.155.183:3000/user/avatar/bjquanjiang/-1" />
+
+<meta property="og:site_name" content="jqgit" />
+
+
+</head>
+<body>
+	
+
+	<div class="full height">
+		<noscript>Este sitio web funciona mejor con JavaScript.</noscript>
+
+		
+
+		
+			<div class="ui top secondary stackable main menu following bar light">
+				<div class="ui container" id="navbar">
+	<div class="item brand" style="justify-content: space-between;">
+		<a href="/">
+			<img class="ui mini image" src="/img/gitea-sm.png">
+		</a>
+		<div class="ui basic icon button mobile-only" id="navbar-expand-toggle">
+			<i class="sidebar icon"></i>
+		</div>
+	</div>
+
+	
+		<a class="item " href="/">Inicio</a>
+		<a class="item " href="/explore/repos">Explorar</a>
+	
+
+	
+
+	
+
+
+	
+		<a class="item" target="_blank" rel="noopener noreferrer" href="https://docs.gitea.io">Ayuda</a>
+		<div class="right stackable menu">
+			
+				<a class="item" href="/user/sign_up">
+					<svg class="svg octicon-person" width="16" height="16" aria-hidden="true"><use xlink:href="#octicon-person" /></svg> Registro
+				</a>
+			
+			<a class="item" rel="nofollow" href="/user/login?redirect_to=%2fbjquanjiang%2fpinganxiaoyuan%2fblame%2fcommit%2fbc703461b228d3ab1544aa8a87ffcb2e88196eeb%2fSafeCampus.WEB%2f.env">
+				<svg class="svg octicon-sign-in" width="16" height="16" aria-hidden="true"><use xlink:href="#octicon-sign-in" /></svg> Iniciar sesión
+			</a>
+		</div>
+	
+</div>
+
+			</div>
+		
+
+
+<div class="repository file list">
+	<div class="header-wrapper">
+
+	<div class="ui container">
+		<div class="repo-header">
+			<div class="ui huge breadcrumb repo-title">
+				
+					
+						<svg class="svg octicon-repo" width="32" height="32" aria-hidden="true"><use xlink:href="#octicon-repo" /></svg>
+					
+				
+				<a href="/bjquanjiang">bjquanjiang</a>
+				<div class="divider"> / </div>
+				<a href="/bjquanjiang/pinganxiaoyuan">pinganxiaoyuan</a>
+				
+				
+				
+				
+				
+			</div>
+			
+				<div class="repo-buttons">
+					<form method="post" action="/bjquanjiang/pinganxiaoyuan/action/watch?redirect_to=%2fbjquanjiang%2fpinganxiaoyuan%2fblame%2fcommit%2fbc703461b228d3ab1544aa8a87ffcb2e88196eeb%2fSafeCampus.WEB%2f.env">
+						<input type="hidden" name="_csrf" value="VvwZ64zx-E00z9BfJazb3eUD2UY6MTc1NDg1NzE0OTcwMTA1OTUwMA">
+						<div class="ui labeled button" tabindex="0">
+							<button type="submit" class="ui compact basic button">
+								<i class="icon fa-eye-slash"></i>Seguir
+							</button>
+							<a class="ui basic label" href="/bjquanjiang/pinganxiaoyuan/watchers">
+								1
+							</a>
+						</div>
+					</form>
+					<form method="post" action="/bjquanjiang/pinganxiaoyuan/action/star?redirect_to=%2fbjquanjiang%2fpinganxiaoyuan%2fblame%2fcommit%2fbc703461b228d3ab1544aa8a87ffcb2e88196eeb%2fSafeCampus.WEB%2f.env">
+						<input type="hidden" name="_csrf" value="VvwZ64zx-E00z9BfJazb3eUD2UY6MTc1NDg1NzE0OTcwMTA1OTUwMA">
+						<div class="ui labeled button" tabindex="0">
+							<button type="submit" class="ui compact basic button">
+								<i class="icon star outline"></i>Destacar
+							</button>
+							<a class="ui basic label" href="/bjquanjiang/pinganxiaoyuan/stars">
+								0
+							</a>
+						</div>
+					</form>
+					
+						<div class="ui labeled button " tabindex="0">
+							<a class="ui compact basic button poping up"  data-content="Regístrate para forkear este repositorio." rel="nofollow" href="/user/login?redirect_to=/repo/fork/22"  data-position="top center" data-variation="tiny">
+								<svg class="svg octicon-repo-forked" width="15" height="15" aria-hidden="true"><use xlink:href="#octicon-repo-forked" /></svg>Fork
+							</a>
+							<a class="ui basic label" href="/bjquanjiang/pinganxiaoyuan/forks">
+								0
+							</a>
+						</div>
+					
+				</div>
+			
+		</div>
+	</div>
+
+	<div class="ui tabs container">
+		
+			<div class="ui tabular stackable menu navbar">
+				
+				<a class="active item" href="/bjquanjiang/pinganxiaoyuan/src/commit/bc703461b228d3ab1544aa8a87ffcb2e88196eeb">
+					<svg class="svg octicon-code" width="16" height="16" aria-hidden="true"><use xlink:href="#octicon-code" /></svg> Código
+				</a>
+				
+
+				
+					<a class=" item" href="/bjquanjiang/pinganxiaoyuan/issues">
+						<svg class="svg octicon-issue-opened" width="16" height="16" aria-hidden="true"><use xlink:href="#octicon-issue-opened" /></svg> Incidencias <span class="ui gray small label">0</span>
+					</a>
+				
+
+				
+
+				
+					<a class=" item" href="/bjquanjiang/pinganxiaoyuan/pulls">
+						<svg class="svg octicon-git-pull-request" width="16" height="16" aria-hidden="true"><use xlink:href="#octicon-git-pull-request" /></svg> Pull Requests <span class="ui gray small label">0</span>
+					</a>
+				
+
+				
+				<a class=" item" href="/bjquanjiang/pinganxiaoyuan/releases">
+					<svg class="svg octicon-tag" width="16" height="16" aria-hidden="true"><use xlink:href="#octicon-tag" /></svg> Lanzamientos <span class="ui gray small label">0</span>
+				</a>
+				
+
+				
+					<a class=" item" href="/bjquanjiang/pinganxiaoyuan/wiki" >
+						<svg class="svg octicon-book" width="16" height="16" aria-hidden="true"><use xlink:href="#octicon-book" /></svg> Wiki
+					</a>
+				
+
+				
+					<a class=" item" href="/bjquanjiang/pinganxiaoyuan/activity">
+						<svg class="svg octicon-pulse" width="16" height="16" aria-hidden="true"><use xlink:href="#octicon-pulse" /></svg> Actividad
+					</a>
+				
+
+				
+
+				
+			</div>
+		
+	</div>
+	<div class="ui tabs divider"></div>
+</div>
+
+	<div class="ui container">
+		
+
+
+
+		<div class="ui repo-description">
+			<div id="repo-desc">
+				<span class="description">平安校园</span>
+				<a class="link" href=""></a>
+			</div>
+			
+		</div>
+		<div class="ui" id="repo-topics">
+		
+		
+		</div>
+		
+		<div class="hide" id="validate_prompt">
+			<span id="count_prompt">No puede seleccionar más de 25 temas</span>
+			<span id="format_prompt">Los temas deben comenzar con una letra o número, pueden incluir guiones (&#39;-&#39;) y pueden tener hasta 35 caracteres de largo.</span>
+		</div>
+		
+		<div class="ui segments repository-summary">
+	<div class="ui segment sub-menu repository-menu">
+		<div class="ui two horizontal center link list">
+			
+				<div class="item">
+					<a class="ui" href="/bjquanjiang/pinganxiaoyuan/commits/commit/bc703461b228d3ab1544aa8a87ffcb2e88196eeb"><svg class="svg octicon-history" width="16" height="16" aria-hidden="true"><use xlink:href="#octicon-history" /></svg> <b>182</b> Commits</a>
+				</div>
+			
+			
+				<div class="item">
+					<a class="ui" href="/bjquanjiang/pinganxiaoyuan/branches/"><svg class="svg octicon-git-branch" width="16" height="16" aria-hidden="true"><use xlink:href="#octicon-git-branch" /></svg> <b>1</b> Rama</a>
+				</div>
+				<div class="item">
+					<a class="ui" href="#"><svg class="svg octicon-database" width="16" height="16" aria-hidden="true"><use xlink:href="#octicon-database" /></svg> <b>128 MiB</b></a>
+				</div>
+			
+		</div>
+	</div>
+	
+</div>
+
+		<div class="ui stackable secondary menu mobile--margin-between-items mobile--no-negative-margins">
+			<div class="fitted item choose reference">
+	<div class="ui floating filter dropdown custom" data-can-create-branch="false" data-no-results="Sin resultados.">
+		<div class="ui basic small compact button" @click="menuVisible = !menuVisible" @keyup.enter="menuVisible = !menuVisible">
+			<span class="text">
+				<svg class="svg octicon-git-branch" width="16" height="16" aria-hidden="true"><use xlink:href="#octicon-git-branch" /></svg>
+				Árbol:
+				<strong>bc703461b2</strong>
+			</span>
+			<i class="dropdown icon"></i>
+		</div>
+		<div class="data" style="display: none" data-mode="branches">
+			
+				<div class="item branch " data-url="/bjquanjiang/pinganxiaoyuan/src/branch/master/SafeCampus.WEB/.env">master</div>
+			
+			
+		</div>
+		<div class="menu transition" :class="{visible: menuVisible}" v-if="menuVisible" v-cloak>
+			<div class="ui icon search input">
+				<i class="filter icon"></i>
+				<input name="search" ref="searchField" v-model="searchTerm" @keydown="keydown($event)" placeholder="Filtrar por rama o etiqueta...">
+			</div>
+			<div class="header branch-tag-choice">
+				<div class="ui grid">
+					<div class="two column row">
+						<a class="reference column" href="#" @click="mode = 'branches'; focusSearchField()">
+							<span class="text" :class="{black: mode == 'branches'}">
+								<svg class="svg octicon-git-branch" width="16" height="16" aria-hidden="true"><use xlink:href="#octicon-git-branch" /></svg> Ramas
+							</span>
+						</a>
+						<a class="reference column" href="#" @click="mode = 'tags'; focusSearchField()">
+							<span class="text" :class="{black: mode == 'tags'}">
+								<i class="reference tags icon"></i> Etiquetas
+							</span>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="scrolling menu" ref="scrollContainer">
+				<div v-for="(item, index) in filteredItems" :key="item.name" class="item" :class="{selected: item.selected, active: active == index}" @click="selectItem(item)" :ref="'listItem' + index">${ item.name }</div>
+				<div class="item" v-if="showCreateNewBranch" :class="{active: active == filteredItems.length}" :ref="'listItem' + filteredItems.length">
+					<a href="#" @click="createNewBranch()">
+						<div>
+							<svg class="svg octicon-git-branch" width="16" height="16" aria-hidden="true"><use xlink:href="#octicon-git-branch" /></svg>
+							Crear rama <strong>${ searchTerm }</strong>
+						</div>
+						<div class="text small">
+							
+								desde &#39;bc703461b2&#39;
+							
+						</div>
+					</a>
+					<form ref="newBranchForm" action="/bjquanjiang/pinganxiaoyuan/branches/_new/commit/bc703461b228d3ab1544aa8a87ffcb2e88196eeb" method="post">
+						<input type="hidden" name="_csrf" value="VvwZ64zx-E00z9BfJazb3eUD2UY6MTc1NDg1NzE0OTcwMTA1OTUwMA">
+						<input type="hidden" name="new_branch_name" v-model="searchTerm">
+					</form>
+				</div>
+			</div>
+			<div class="message" v-if="showNoResults">${ noResults }</div>
+		</div>
+	</div>
+</div>
+
+			
+			
+			
+			
+				<div class="fitted item"><span class="ui breadcrumb repo-path"><a class="section" href="/bjquanjiang/pinganxiaoyuan/src/commit/bc703461b228d3ab1544aa8a87ffcb2e88196eeb" title="pinganxiaoyuan">pinganxiaoyuan</a><span class="divider">/</span><span class="section"><a href="/bjquanjiang/pinganxiaoyuan/src/commit/bc703461b228d3ab1544aa8a87ffcb2e88196eeb/SafeCampus.WEB" title="SafeCampus.WEB">SafeCampus.WEB</a></span><span class="divider">/</span><span class="active section" title=".env">.env</span></span></div>
+			
+			<div class="right fitted item" id="file-buttons">
+				<div class="ui tiny blue buttons">
+					
+						
+						
+					
+					
+				</div>
+
+			</div>
+			<div class="fitted item">
+				
+			</div>
+			<div class="fitted item">
+
+				
+				
+			</div>
+		</div>
+		
+			<div class="tab-size-8 non-diff-file-content">
+
+	<h4 class="ui top attached header" id="repo-read-file">
+		<div class="ui stackable grid">
+			<div class="eight wide column">
+                <i class="file text outline icon ui left"></i>
+                <strong>.env</strong> <span class="text grey normal">210 B</span>
+			</div>
+			<div class="eight wide right aligned column">
+                <div class="ui right file-actions">
+                    <div class="ui buttons">
+                        <a class="ui button" href="/bjquanjiang/pinganxiaoyuan/raw/commit/bc703461b228d3ab1544aa8a87ffcb2e88196eeb/SafeCampus.WEB/.env">Original</a>
+                        
+                        <a class="ui button" href="/bjquanjiang/pinganxiaoyuan/src/commit/bc703461b228d3ab1544aa8a87ffcb2e88196eeb/SafeCampus.WEB/.env">Vista normal</a>
+                        <a class="ui button" href="/bjquanjiang/pinganxiaoyuan/commits/commit/bc703461b228d3ab1544aa8a87ffcb2e88196eeb/SafeCampus.WEB/.env">Histórico</a>
+                    </div>
+                    
+                        
+                            <span class="btn-octicon poping up disabled" data-content="" data-position="bottom center" data-variation="tiny inverted"><svg class="svg octicon-pencil" width="16" height="16" aria-hidden="true"><use xlink:href="#octicon-pencil" /></svg></span>
+                        
+                        
+                            <span class="btn-octicon poping up disabled" data-content="Debes estar en una rama para hacer o proponer cambios en este archivo." data-position="bottom center" data-variation="tiny inverted"><svg class="svg octicon-trashcan" width="16" height="16" aria-hidden="true"><use xlink:href="#octicon-trashcan" /></svg></span>
+                        
+                    
+                </div>
+			</div>
+		</div>
+	</h4>
+
+    <div class="ui attached table unstackable segment">
+        <div class="file-view code-view">
+            <table>
+                <tbody>
+                    <tr>
+                        <td class="lines-commit"><div class="blame-info bottom-line"><div class="blame-data"><div class="blame-avatar"><a href="/wxh"><img class="ui avatar image" src="/user/avatar/wxh/-1" title="王晓寒" alt=""/></a></div><div class="blame-message"><a href="/bjquanjiang/pinganxiaoyuan/commit/7b594c62a278bc4c7cdeb186fc16b21a67573018" title="init
+">init
+</a></div><div class="blame-time"><span class="time-since" title="Mon, 15 Jul 2024 11:20:46 CST">hace 1 año</span></div></div></div><div class="blame-info bottom-line"><div class="blame-data"><div class="blame-avatar"><a href="/wwp"><img class="ui avatar image" src="/user/avatar/wwp/-1" title="wwp" alt=""/></a></div><div class="blame-message"><a href="/bjquanjiang/pinganxiaoyuan/commit/dd4f2ce60b2cda1093d8808170d1777eb1b3d3ba" title="12
+">12
+</a></div><div class="blame-time"><span class="time-since" title="Fri, 19 Jul 2024 13:11:49 CST">hace 1 año</span></div></div></div><div class="blame-info"><div class="blame-data"><div class="blame-avatar"><a href="/wxh"><img class="ui avatar image" src="/user/avatar/wxh/-1" title="王晓寒" alt=""/></a></div><div class="blame-message"><a href="/bjquanjiang/pinganxiaoyuan/commit/7b594c62a278bc4c7cdeb186fc16b21a67573018" title="init
+">init
+</a></div><div class="blame-time"><span class="time-since" title="Mon, 15 Jul 2024 11:20:46 CST">hace 1 año</span></div></div></div><div class="blame-info">&#8203;</div><div class="blame-info">&#8203;</div><div class="blame-info">&#8203;</div><div class="blame-info">&#8203;</div><div class="blame-info">&#8203;</div><div class="blame-info">&#8203;</div><div class="blame-info">&#8203;</div><div class="blame-info">&#8203;</div></td>
+                        <td class="lines-num"><span id="L1" class="bottom-line">1</span><span id="L2" class="bottom-line">2</span><span id="L3">3</span><span id="L4">4</span><span id="L5">5</span><span id="L6">6</span><span id="L7">7</span><span id="L8">8</span><span id="L9">9</span><span id="L10">10</span><span id="L11">11</span></td>
+                        <td class="lines-code"><pre><code class=""><ol class="linenums"><li class="L1 bottom-line" rel="L1"># title
+</li><li class="L2 bottom-line" rel="L2">VITE_GLOB_APP_TITLE = AI监控预警分析平台
+</li><li class="L3" rel="L3">
+</li><li class="L4" rel="L4"># 本地运行端口号
+</li><li class="L5" rel="L5">VITE_PORT = 8848
+</li><li class="L6" rel="L6">
+</li><li class="L7" rel="L7"># 启动时自动打开浏览器
+</li><li class="L8" rel="L8">VITE_OPEN = true
+</li><li class="L9" rel="L9">
+</li><li class="L10" rel="L10"># 打包后是否生成包分析文件
+</li><li class="L11" rel="L11">VITE_REPORT = false
+</li></ol></code></pre></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+</div>
+
+		
+	</div>
+</div>
+
+
+	
+
+	</div>
+
+	
+
+	<footer>
+	<div class="ui container">
+		<div class="ui left">
+			Impulsado por Gitea Versión: 1.12.3 Página: <strong>318ms</strong> Plantilla: <strong>0ms</strong>
+		</div>
+		<div class="ui right links">
+			
+			<div class="ui language bottom floating slide up dropdown link item">
+				<i class="world icon"></i>
+				<div class="text">español</div>
+				<div class="menu">
+					
+						<a lang="es-ES" class="item active selected" href="#">español</a>
+					
+						<a lang="en-US" class="item " href="/bjquanjiang/pinganxiaoyuan/blame/commit/bc703461b228d3ab1544aa8a87ffcb2e88196eeb/SafeCampus.WEB/.env?lang=en-US">English</a>
+					
+						<a lang="zh-CN" class="item " href="/bjquanjiang/pinganxiaoyuan/blame/commit/bc703461b228d3ab1544aa8a87ffcb2e88196eeb/SafeCampus.WEB/.env?lang=zh-CN">简体中文</a>
+					
+						<a lang="zh-HK" class="item " href="/bjquanjiang/pinganxiaoyuan/blame/commit/bc703461b228d3ab1544aa8a87ffcb2e88196eeb/SafeCampus.WEB/.env?lang=zh-HK">繁體中文（香港）</a>
+					
+						<a lang="zh-TW" class="item " href="/bjquanjiang/pinganxiaoyuan/blame/commit/bc703461b228d3ab1544aa8a87ffcb2e88196eeb/SafeCampus.WEB/.env?lang=zh-TW">繁體中文（台灣）</a>
+					
+						<a lang="de-DE" class="item " href="/bjquanjiang/pinganxiaoyuan/blame/commit/bc703461b228d3ab1544aa8a87ffcb2e88196eeb/SafeCampus.WEB/.env?lang=de-DE">Deutsch</a>
+					
+						<a lang="fr-FR" class="item " href="/bjquanjiang/pinganxiaoyuan/blame/commit/bc703461b228d3ab1544aa8a87ffcb2e88196eeb/SafeCampus.WEB/.env?lang=fr-FR">français</a>
+					
+						<a lang="nl-NL" class="item " href="/bjquanjiang/pinganxiaoyuan/blame/commit/bc703461b228d3ab1544aa8a87ffcb2e88196eeb/SafeCampus.WEB/.env?lang=nl-NL">Nederlands</a>
+					
+						<a lang="lv-LV" class="item " href="/bjquanjiang/pinganxiaoyuan/blame/commit/bc703461b228d3ab1544aa8a87ffcb2e88196eeb/SafeCampus.WEB/.env?lang=lv-LV">latviešu</a>
+					
+						<a lang="ru-RU" class="item " href="/bjquanjiang/pinganxiaoyuan/blame/commit/bc703461b228d3ab1544aa8a87ffcb2e88196eeb/SafeCampus.WEB/.env?lang=ru-RU">русский</a>
+					
+						<a lang="uk-UA" class="item " href="/bjquanjiang/pinganxiaoyuan/blame/commit/bc703461b228d3ab1544aa8a87ffcb2e88196eeb/SafeCampus.WEB/.env?lang=uk-UA">Українська</a>
+					
+						<a lang="ja-JP" class="item " href="/bjquanjiang/pinganxiaoyuan/blame/commit/bc703461b228d3ab1544aa8a87ffcb2e88196eeb/SafeCampus.WEB/.env?lang=ja-JP">日本語</a>
+					
+						<a lang="pt-BR" class="item " href="/bjquanjiang/pinganxiaoyuan/blame/commit/bc703461b228d3ab1544aa8a87ffcb2e88196eeb/SafeCampus.WEB/.env?lang=pt-BR">português do Brasil</a>
+					
+						<a lang="pt-PT" class="item " href="/bjquanjiang/pinganxiaoyuan/blame/commit/bc703461b228d3ab1544aa8a87ffcb2e88196eeb/SafeCampus.WEB/.env?lang=pt-PT">Português de Portugal</a>
+					
+						<a lang="pl-PL" class="item " href="/bjquanjiang/pinganxiaoyuan/blame/commit/bc703461b228d3ab1544aa8a87ffcb2e88196eeb/SafeCampus.WEB/.env?lang=pl-PL">polski</a>
+					
+						<a lang="bg-BG" class="item " href="/bjquanjiang/pinganxiaoyuan/blame/commit/bc703461b228d3ab1544aa8a87ffcb2e88196eeb/SafeCampus.WEB/.env?lang=bg-BG">български</a>
+					
+						<a lang="it-IT" class="item " href="/bjquanjiang/pinganxiaoyuan/blame/commit/bc703461b228d3ab1544aa8a87ffcb2e88196eeb/SafeCampus.WEB/.env?lang=it-IT">italiano</a>
+					
+						<a lang="fi-FI" class="item " href="/bjquanjiang/pinganxiaoyuan/blame/commit/bc703461b228d3ab1544aa8a87ffcb2e88196eeb/SafeCampus.WEB/.env?lang=fi-FI">suomi</a>
+					
+						<a lang="tr-TR" class="item " href="/bjquanjiang/pinganxiaoyuan/blame/commit/bc703461b228d3ab1544aa8a87ffcb2e88196eeb/SafeCampus.WEB/.env?lang=tr-TR">Türkçe</a>
+					
+						<a lang="cs-CZ" class="item " href="/bjquanjiang/pinganxiaoyuan/blame/commit/bc703461b228d3ab1544aa8a87ffcb2e88196eeb/SafeCampus.WEB/.env?lang=cs-CZ">čeština</a>
+					
+						<a lang="sr-SP" class="item " href="/bjquanjiang/pinganxiaoyuan/blame/commit/bc703461b228d3ab1544aa8a87ffcb2e88196eeb/SafeCampus.WEB/.env?lang=sr-SP">српски</a>
+					
+						<a lang="sv-SE" class="item " href="/bjquanjiang/pinganxiaoyuan/blame/commit/bc703461b228d3ab1544aa8a87ffcb2e88196eeb/SafeCampus.WEB/.env?lang=sv-SE">svenska</a>
+					
+						<a lang="ko-KR" class="item " href="/bjquanjiang/pinganxiaoyuan/blame/commit/bc703461b228d3ab1544aa8a87ffcb2e88196eeb/SafeCampus.WEB/.env?lang=ko-KR">한국어</a>
+					
+				</div>
+			</div>
+			<a href="/vendor/librejs.html" data-jslicense="1">JavaScript licenses</a>
+			<a href="/api/swagger">API</a>
+			<a target="_blank" rel="noopener noreferrer" href="https://gitea.io">Página web</a>
+			
+			<span class="version">Go1.14.6</span>
+		</div>
+	</div>
+</footer>
+
+
+	<script src="/js/jquery.js?v=f019d6977306263578f155dd820806e8"></script>
+
+
+
+
+
+
+
+
+	<script src="/fomantic/semantic.min.js?v=f019d6977306263578f155dd820806e8"></script>
+	<script src="/js/index.js?v=f019d6977306263578f155dd820806e8"></script>
+
+</body>
+</html>
+

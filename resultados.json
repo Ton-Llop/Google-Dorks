@@ -1,0 +1,52 @@
+[
+    {
+        "title": "Python Classes and Objects",
+        "descripcion": "A Class is like an object constructor, or a \"blueprint\" for creating objects. Create a Class. To create a class, use the keyword class : ...",
+        "link": "https://www.w3schools.com/python/python_classes.asp"
+    },
+    {
+        "title": "Google's Python Class | Python Education",
+        "descripcion": "A free class for people with a little bit of programming experience who want to learn Python. The class includes written materials, lecture videos, and lots of ...",
+        "link": "https://developers.google.com/edu/python"
+    },
+    {
+        "title": "Im new to python. Classes and objects : r/learnpython",
+        "descripcion": "A class is a means of fusing stored data and functions that operate on that data, making it easy to build objects that hold similar data and ...",
+        "link": "https://www.reddit.com/r/learnpython/comments/14y1c31/im_new_to_python_classes_and_objects/"
+    },
+    {
+        "title": "Python Classes and Objects",
+        "descripcion": "A class in Python is a user-defined template for creating objects. It bundles data and functions together, making it easier to manage and use them.",
+        "link": "https://www.geeksforgeeks.org/python/python-classes-and-objects/"
+    },
+    {
+        "title": "Python Classes: The Power of Object-Oriented Programming",
+        "descripcion": "A class in Python serves as a blueprint for creating objects, which are instances of the class. You use classes when you need to encapsulate ...",
+        "link": "https://realpython.com/python-classes/"
+    },
+    {
+        "title": "Python Class: Syntax and Examples [Python Tutorial]",
+        "descripcion": "Classes are a fundamental component of object-oriented programming (OOP). With classes, you can turn complex systems into objects using data structures like ...",
+        "link": "https://mimo.org/glossary/python/class"
+    },
+    {
+        "title": "Python Tutorial - Introduction to Classes",
+        "descripcion": "Comments · 5 Good Python Habits · 5 Tips For Object-Oriented Programming Done Well - In Python. ArjanCodes•224K views · 20:00 · Go to channel ...",
+        "link": "https://www.youtube.com/watch?v=u4Ryk0YuW6A&pp=0gcJCfwAo7VqN5tD"
+    },
+    {
+        "title": "Python Classes, Objects, Inheritance & Polymorphism for ...",
+        "descripcion": "Today we will learn about classes objects inheritance and polymorphism in Python.",
+        "link": "https://www.youtube.com/watch?v=RpBBzci_cBk"
+    },
+    {
+        "title": "Python Classes, Methods, and Objects",
+        "descripcion": "Classes represent entities where you have your standard fields and attributes so you have your fields and attributes and you have your behavior.",
+        "link": "https://www.youtube.com/watch?v=ysiogYbQ_G8"
+    },
+    {
+        "title": "Python classes - PHYS281",
+        "descripcion": "Almost everything in Python is an object. All objects (eg, variables, functions) have a type. An object's type is also known as its class.",
+        "link": "https://www.lancaster.ac.uk/staff/drummonn/PHYS281/demo-classes/"
+    }
+]
