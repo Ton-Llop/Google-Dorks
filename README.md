@@ -1,7 +1,7 @@
 # Google Dorks con Python
 Este proyecto permite realizar búsquedas avanzadas en Google y DuckDuckGo utilizando técnicas conocidas como Google Dorks. Está pensado para ayudar en la ciberseguridad y en la búsqueda de información pública específica.
 
-#¿Qué es un Google Dork?
+# ¿Qué es un Google Dork?
 Un Google Dork es una búsqueda avanzada que usa operadores especiales de Google para encontrar información que normalmente no es fácil de localizar, como archivos o datos sensibles expuestos accidentalmente.
 
 # Archivos principales
@@ -23,7 +23,8 @@ Para usar el proyecto, instala las dependencias con:
 pip install -r requirements.txt
 # Cómo usarlo
 Por ejemplo, para ejecutar una búsqueda básica con googlesearch.py:
-
 python ninjadorks.py -q 'udemy filetype:pdf' --download "pdf" --selenium
+para ver todas las funcionalidades escribe:
+python ninjadorks.py -h
 
 Puedes modificar el script para cambiar la consulta y adaptar las búsquedas a tus necesidades.
