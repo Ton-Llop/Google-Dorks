@@ -23,33 +23,33 @@ Para usar el proyecto, instala las dependencias con:
 pip install -r requirements.txt
 # Cómo usarlo
 Por ejemplo, para ejecutar una búsqueda básica con googlesearch.py:
-# 1️⃣ Búsqueda simple en Google con Dork
+## 1️⃣ Búsqueda simple en Google con Dork
 python ninjadorks.py -q 'site:example.com "confidential"'
 
-# 2️⃣ Búsqueda simple en DuckDuckGo (configurar primero)
+## 2️⃣ Búsqueda simple en DuckDuckGo (configurar primero)
 python ninjadorks.py -q 'filetype:pdf "proyecto interno"' -c
 
-# 3️⃣ Descargar archivos encontrados (PDFs)
+## 3️⃣ Descargar archivos encontrados (PDFs)
 python ninjadorks.py -q 'site:example.com filetype:pdf' --download pdf
 
-# 4️⃣ Smart Search con regex (buscar emails)
+## 4️⃣ Smart Search con regex (buscar emails)
 python ninjadorks.py --smart-search /home/kali/Downloads --regex "\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}\b"
 
-# 5️⃣ Smart Search con IA (prompt)
+## 5️⃣ Smart Search con IA (prompt)
 python ninjadorks.py --smart-search /home/kali/Downloads --prompt "Extrae cualquier dirección de correo electrónico y contraseña que aparezca"
 
-# 6️⃣ Generar un Dork con IA
+## 6️⃣ Generar un Dork con IA
 python ninjadorks.py --generate-dork "Encuentra documentos internos sobre planes estratégicos"
 
-# 7️⃣ Búsqueda automática con Selenium
+## 7️⃣ Búsqueda automática con Selenium
 python ninjadorks.py -q 'udemy filetype:pdf' --download "pdf" --selenium
 
-# 8️⃣ Combinando descarga + Smart Search
+## 8️⃣ Combinando descarga + Smart Search
 python ninjadorks.py -q 'filetype:txt site:example.com' --download txt
 python ninjadorks.py --smart-search ./Downloads --prompt "Busca usuarios y contraseñas"
 
 
-Para ver todas las funcionalidades escribe:
+## Para ver todas las funcionalidades escribe:
 python ninjadorks.py -h
 
 Puedes modificar el script para cambiar la consulta y adaptar las búsquedas a tus necesidades.
