@@ -1,4 +1,4 @@
-## Google Dorks con Python
+# Google Dorks con Python
 Este proyecto permite realizar búsquedas avanzadas en Google y DuckDuckGo utilizando técnicas conocidas como Google Dorks. Está pensado para ayudar en la ciberseguridad y en la búsqueda de información pública específica.
 
 #¿Qué es un Google Dork?
