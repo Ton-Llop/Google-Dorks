@@ -24,7 +24,8 @@ pip install -r requirements.txt
 # Cómo usarlo
 Por ejemplo, para ejecutar una búsqueda básica con googlesearch.py:
 python ninjadorks.py -q 'udemy filetype:pdf' --download "pdf" --selenium
-para ver todas las funcionalidades escribe:
+
+Para ver todas las funcionalidades escribe:
 python ninjadorks.py -h
 
 Puedes modificar el script para cambiar la consulta y adaptar las búsquedas a tus necesidades.
