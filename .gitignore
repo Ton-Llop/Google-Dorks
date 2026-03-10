@@ -1,6 +1,10 @@
 .env
 __pycache__/
 *.pyc
-Netflix
-Downloads
+.vscode/
 
+# local/generated content
+Downloads/
+resultados.html
+resultados.json
+Netflix/
