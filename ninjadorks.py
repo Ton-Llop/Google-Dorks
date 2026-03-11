@@ -62,13 +62,17 @@ def load_env(configure):
 
 #MIRAR .ENV I CANVIAR SI ES GOOGLE O DUCKDUCKGO
 def main(query, configure, start_page, pages, lang, output_json, output_html,
-         download, gen_dork, smart_search_dir, regex, prompt,selenium,
+         download, gen_dork, smart_search_dir, regex, prompt, selenium,
          model="gpt-3.5-turbo-0125", max_tokens=100,):
 
+    if configure:
+        load_env(configure=True)
+        return
+
     if gen_dork:
-        #Preguntamos si quiere un modelo local o openai
+        # Preguntamos si quiere un modelo local o openai
         respuesta = ""
-        while respuesta.lower() not in ("y","yes","no","n"):
+        while respuesta.lower() not in ("y", "yes", "no", "n"):
             respuesta = input("Quieres utilizar GPT-4 de OpenAI (yes/no)?:")
 
         if respuesta.lower() in ("y", "yes"):

@@ -1,8 +1,10 @@
-Requests
+requests
 python-dotenv
 rich
 gpt4all
 openai
 transformers
 selenium
-webdriver_manager
+webdriver-manager
+torch
+python-docx
