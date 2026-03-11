@@ -251,7 +251,7 @@ def draw_dashboard():
     print(c(BANNER, BRIGHT_RED))
 
     box_title("NINJADORKS :: SHOWCASE")
-    box_row("project type   : educational search automation toolkit", BRIGHT_WHITE)
+    box_row("project type   : search automation and document analysis toolkit", BRIGHT_WHITE)
     box_row("interface      : terminal showcase aligned with the real CLI", BRIGHT_WHITE)
     box_row("focus          : functionality, reproducibility and clean execution flow", BRIGHT_WHITE)
     box_row("author         : Antoni Llop", BRIGHT_WHITE)
@@ -404,7 +404,7 @@ def summary_panel():
     box_row("   1) python ninjadorks.py -c", BRIGHT_BLACK if USE_COLOR else WHITE)
     box_row("   2) python ninjadorks.py -q 'site:example.com filetype:pdf' --html resultados.html --json resultados.json", BRIGHT_BLACK if USE_COLOR else WHITE)
     box_row("   3) python ninjadorks.py -q 'site:example.com filetype:pdf' --download pdf", BRIGHT_BLACK if USE_COLOR else WHITE)
-    box_row("   4) python ninjadorks.py --smart-search ./Downloads --regex '(?i)password|token|secret'", BRIGHT_BLACK if USE_COLOR else WHITE)
+    box_row("   4) python ninjadorks.py --smart-search ./Downloads --regex '(?i)api|config|backup'", BRIGHT_BLACK if USE_COLOR else WHITE)
     box_end()
 
 
